@@ -1,0 +1,101 @@
+\documentclass{twocolcv}
+
+\usepackage{lipsum}
+
+\begin{document}
+\header{Richard Pannek}{avatar.jpg}{Gray}
+\section*{Personal data}
+  \cvtable{
+    Name           & Richard Pannek       \\
+    Phone number   & +46 (0)72 394 8758   \\
+    E-mail         & richard@pannek.name  \\
+    Address        & Varberg, Sweden      \\
+    Date of birth  & 1978 08 16
+  }
+\section*{Professional merits}
+\employment{Pelagicore}
+           {Senior Software Engineer}
+           {2014 -- Ongoing}
+           {
+I've been working in multiple projects, below are some examples.\newline\newline
+\project{PELUX embeded platform}
+        {Right now I am a member of the core team which developes a Linux based platform for automotive projects. We develop everything in the open and one can follow the developement via http://pelux.io. My work involves setting up and documenting the way of working with the platform which includes templates, best practices and devops as well as continuous integration and deployment.}
+\project{Custom Linux platform}
+        {For two years I've been working as a lead developer in the platform team in big customer project. I helped to set up their custom Linux distribution with Yocto, set up the devops operations and was training people on how to properly work with the whole system. I did that by developing and documenting processes they could follow and offering a SDK and ADK. Later I was developing middleware services for the platform.}
+}
+
+\employment{Odelay}
+     {Head of developement}
+     {2008 -- 2014}
+     {Odelay was a startup in Stockholm where I was the first developer. I mostly wrote iPhone and big web applications and took care of the Linux web servers we used. As we grew I became head of developement.}
+
+\employment{Infogate}
+     {Web frontend developer}
+     {2007 -- 2008}
+     {At Infogate I was responsible for implementing websites for big customers like golf.se, Högskolan Väst, Berns Salonger and many more. My responsibility was also to rewrite the front end code for their in house CMS to get it valid, accessible and semantically meaningful.}
+
+\employment{Other}
+     {Heating engineer and factory worker}
+     {1994 -- 2006}
+     {Back in Germany I was not working in IT but at a factory and as a construction worker.}
+     
+\section*{Spoken languages}
+\cvtable{
+    Polish      & mother toungue        \\
+    German      & second mother toungue \\
+    Swedish     & fluently              \\
+    English     & fluently
+  }
+
+\section*{Technical expertise}
+\bulletlist{Programming languages}{
+    \bitem {C++}    {3}{Written some linux middleware}
+    \bitem {Python} {2}{Used for systems testing, desktop applications and scientific algonythms}
+    \bitem {QML}    {2}{Written some applications, plugins and models}
+    \bitem {Ruby, JS}{1}{Written several big CMS', games and backends in it, also used it for desktop apps}
+    \bitem {CSS, HTML}{1}{Used in every web project}
+    \bitem {Objective-C}{1}{Written many iOS and macOS applications}
+    \bitem {PHP, SQL}{2}{Written many web applications with it}
+    \bitem {Erlang} {4}{Used for BSc. thesis and university courses}
+}
+
+I find learning languages easy and fun because I've learned many of the paradigms already, therefore I've been using many more languages over the years. I try to use the right tool for the problem even if that means learning a new language to do so.
+
+\bulletlist{Operating systems}{
+    \bitem {Desktop/server Linuxes} {1}{Arch user. Used Linux for a decade}
+    \bitem {macOS / iOS}            {1}{Used to develop for it for many years}
+    \bitem {Windows}                {2}{Used at home from time to time}
+    \bitem {Amiga OS}               {3}{I was a user and developer as a teenager}
+}
+\bulletlist{Development environments \& IDEs}{
+    \bitem {Emacs}          {2} {Environment of choice.}
+    \bitem {Xcode}          {1} {Used for macOS and iOS development}
+    \bitem {Sublime Text}   {2} {Used for web development}
+}
+
+\bulletlist{Tools, Frameworks \& Tech} {
+    \bitem {Git}            {1}{Git is my version control system of choice since a decade back}
+    \bitem {Yocto}          {2}{Written recipes, made \& maintained layers}
+    \bitem {Jenkins}        {3}{Used and configured professionally for contiguous integration}
+    \bitem {Qt Core}        {3}{Used for medium sized projects}
+    \bitem {CMake}          {3}{Build system of choice, developed several reasonably complex build scaffoldings}
+    \bitem {Ruby on Rails}  {1}{Build many big web systems in it}
+    \bitem {Node JS}        {2}{Used it for several bigger systems}
+    \bitem {Magento}        {2}{Used it to implement several big webshops}
+    \bitem {UIKit}          {1}{Written many iOS applications in it}
+}
+
+\section*{Academical merits}
+  \cvtable{
+    2008-2014 & \uniline{BSc.} {Computer Science} {University of Gothenburg} {Johanneberg Campus}
+  }
+
+\subsection*{Bachelor's Thesis}
+The thesis\footnote{\url{https://jeena.net/t/GGS.pdf}} investigates whether it is possible to create a programming language agnostic application server specialized for game-like applications. A prototype of the game server was written in Erlang, capable of powering several hundred simple game instances written in JavaScript.
+
+\section*{Personal notes}
+  {I am born in Poland and moved to Germany when I was 11 years old. Later by the age of 27 I moved to Sweden.}
+  {Overall I'm very interested in technology so even in my free time I end up programming and looking into new cool languages, projects\footnote{\url{https://github.com/jeena}}, etc. I am very passionate when it comes to free and open source software as well as privacy. That's why I'm a active member of the IndieWeb\footnote{\url{https://indieweb.org}} community.}
+  {I also play in a small metal band\footnote{\url{http://hoggatah.se}}, am a amateur photographer\footnote{\url{https://flickr.com/jeena/albums/72157677196990660}}, a podcaster\footnote{\url{https://jeena.net/pods/}} and I brew beer at home.}
+
+\end{document}

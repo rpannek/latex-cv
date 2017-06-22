@@ -1,0 +1,47 @@
+\documentclass{twocolcv}
+
+\usepackage{lipsum}
+
+\begin{document}
+\header{Some One}{portrait-example.png}{YellowGreen}
+\section*{Personal data}
+  \cvtable{
+    Name           & Some One                 \\
+    Phone number   & 000--0000000             \\
+    E-mail / jabber& someone@somewhere.com    \\
+    Address        & Somewhere, Someplace     \\
+    Date of birth  & 20:th century
+  }
+\section*{Academical merits}
+  \cvtable{
+    \emph{2011-2013(exp)} & \uniline{Title} {Programme} {University} {Small text}
+    \emph{2008-2011}      & \uniline{Title} {Programme} {University} {Small text}
+  }
+
+\section*{Some section}
+\lipsum[1]
+
+\section*{Professional merits}
+\subsubsection*{Software developer}
+\emph{Somewhere}, Somewhere
+February 2011 -- February 2012\newline\newline
+\lipsum[1]
+
+\subsubsection*{Software engineer}
+August 2011 -- February 2012 \newline\newline
+\lipsum[1]
+
+\section*{Spoken languages}
+  \cvtable{
+    Swedish     & I have lived in Sweden for all my life and I speak Swedish natively \\\\
+    English     & I speak English fluently
+  }
+
+\section*{Technical expertise}
+\subsubsection*{Programming languages}
+I can work with the following languages: Python, Haskell, Erlang, C\#, Java, PHP, JavaScript, CSS, HTML, MySQL, \LaTeX
+\subsubsection*{Operating systems}
+I am proficient in the following operating systems: Desktop/server Linuxes (mainly Debian \& derivatives, Arch Linux), Windows XP -- 8
+\subsubsection*{Development environments \& IDEs}
+I am proficient in Vim, Microsoft Visual Studio (for C\#), and Eclipse (for Java)
+\end{document}
