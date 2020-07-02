@@ -6,7 +6,6 @@ PACKAGES=texlive-fonts-recommended     \
          texlive-latex-recommended     \
          latex-xcolor
 
-
 LATEX=pdflatex
 
 .PHONY: install_dependencies clean all release
@@ -23,8 +22,11 @@ install_dependencies:
 	sudo apt-get update
 	sudo apt-get install -y --no-install-recommends $(PACKAGES)
 
+install_dependencies_arch:
+	sudo pacman -S texlive-latexextra
+
 clean:
-	rm *.aux *.log *.out *.pdf release/*.pdf
+	rm -rf *.aux *.log *.out *.pdf release/*.pdf
 
 release: richard-cv.pdf example-cv.pdf
 	mkdir -p release/
